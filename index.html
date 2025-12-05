@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - ConnectologyTest</title>
+    <style>
+        /* CSS: Estilos para que se vea limpio y profesional */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1877f2; /* Azul estilo Facebook */
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 25px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p><strong>Última actualización:</strong> <span id="fecha-actualizacion"></span></p>
+
+        <p>Esta Política de Privacidad describe cómo <strong>ConnectologyTest</strong> ("nosotros", "nuestro" o "la aplicación") maneja la información cuando utilizas nuestros servicios integrados con la Plataforma de Facebook/Meta.</p>
+
+        <h2>1. Información que recopilamos</h2>
+        <p>Nuestra aplicación está diseñada para fines comerciales y de gestión. Solo accedemos a la información necesaria para el funcionamiento técnico de la integración, que puede incluir:</p>
+        <ul>
+            <li>Información básica del perfil público (nombre, identificador de usuario).</li>
+            <li>Datos necesarios para la gestión de mensajes o leads (si aplica a tu funcionalidad).</li>
+        </ul>
+
+        <h2>2. Cómo usamos la información</h2>
+        <p>Utilizamos la información recopilada exclusivamente para:</p>
+        <ul>
+            <li>Proporcionar la funcionalidad principal de la aplicación (automatización, gestión de respuestas, etc.).</li>
+            <li>Mejorar la experiencia del usuario y corregir errores técnicos.</li>
+        </ul>
+        <p><strong>No vendemos ni compartimos tus datos privados con terceros ajenos a la funcionalidad de la app.</strong></p>
+
+        <h2>3. Eliminación de Datos</h2>
+        <p>De acuerdo con las políticas de la Plataforma de Facebook, los usuarios pueden solicitar la eliminación de sus datos. Si deseas eliminar tus datos de nuestra base de registros, por favor contáctanos en el correo que aparece abajo.</p>
+
+        <h2>4. Cambios en esta política</h2>
+        <p>Podemos actualizar esta política ocasionalmente. Te recomendamos revisar esta página periódicamente para ver cualquier cambio.</p>
+
+        <div class="footer">
+            <h2>Contacto</h2>
+            <p>Si tienes preguntas sobre esta política, contáctanos en:</p>
+            <p class="highlight">leandrofrava@outlook.com</p> <p>&copy; <span id="year"></span> ConnectologyTest. Todos los derechos reservados.</p>
+        </div>
+    </div>
+
+    <script>
+        // JS: Pequeño script para mantener la fecha siempre "actualizada"
+        const date = new Date();
+        
+        // Poner la fecha de hoy
+        document.getElementById('fecha-actualizacion').innerText = date.toLocaleDateString();
+        
+        // Poner el año actual en el footer
+        document.getElementById('year').innerText = date.getFullYear();
+    </script>
+
+</body>
+</html>
